@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="22dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <TextView
+        android:id="@+id/judulSlideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="judul"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#e5e4cc"/>
+
+    <TextView
+        android:id="@+id/urlSlideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="url"
+        android:textColor="#e5e4cc"/>
+
+</LinearLayout>
